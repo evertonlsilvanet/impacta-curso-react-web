@@ -1,0 +1,26 @@
+#Fazer commit - start #
+1- Verifica as alterações
+command: git status
+
+2- Inclui as alterações
+command: git add -add
+
+3- Incluir comentário do commit e salvar as alterações em seu repositõrio local
+command: git commit
+
+4- Subir alteraçóes para seu repositõrio remoto na branch que você esta codando
+command: git push origin [NOME DA BRANCH]
+
+#Fazer commit - end #
+
+#Fazer merge - start #
+
+1- Faça o commit
+2- Faça o checkout na branch master
+command: git checkout master
+3- Executando o merge
+command: git merge [NOME DA BRANCH QUE VOCÊ ESTAVA COM O CÓDIGO]
+4- Subir as alteraçÓes para sua branch principal(master)
+command: git push origin master
+
+#Fazer merge - end #
